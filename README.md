@@ -1,15 +1,46 @@
-# Spotify Popularity Analysis
+# 🎵 Análise de Popularidade no Spotify
 
-Análise de dados do Spotify para responder: **"O que torna uma música popular?"**
+**Autora:** Kailayni Rodrigues Janez  
+**LinkedIn:** [linkedin.com/in/kailayni-janez-4592158a](https://linkedin.com/in/kailayni-janez-4592158a)
 
-## Principais descobertas
-- Danceability e loudness são os atributos mais correlacionados com popularidade
-- Músicas populares são 3x mais explícitas que as impopulares
-- Instrumentalidade tem forte correlação negativa (vocais são essenciais)
-- Hit médio: 3min30s, 120 BPM, alta energia e baixa acusticidade
+## 📌 Sobre o Projeto
 
-## Tecnologias
-Python, Pandas, Seaborn, Matplotlib, KaggleHub
+Este projeto analisa o dataset **Spotify Tracks Genre Dataset** para responder à pergunta:
 
-## Dataset
-Spotify Tracks Genre Dataset (Kaggle) - 114 mil músicas, 21 atributos
+> **"O que torna uma música popular no Spotify?"**
+
+Foram investigadas correlações entre popularidade e atributos como danceability, energy, loudness, instrumentalness, duração, e muito mais.
+
+## 🔍 Principais Descobertas
+
+- **Danceability** e **loudness** são os atributos com maior correlação positiva com a popularidade
+- **Instrumentalness** tem forte correlação negativa – músicas populares são majoritariamente vocais
+- **Explicit** é 3x mais comum em músicas de alta popularidade
+- **Duração média** do hit: ~3min30s
+- **Velocidade (BPM)** não define dançabilidade – ritmo estável é mais importante
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python 3.10+
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- KaggleHub (para download do dataset)
+
+## 📊 Etapas da Análise
+
+1. Importação e entendimento dos dados
+2. Análise exploratória (EDA)
+3. Limpeza e pré-processamento:
+   - Remoção de duplicatas
+   - Filtro de duração, loudness e speechiness
+   - Remoção de popularidade zero
+4. Engenharia de atributos
+5. Análise de correlações e perguntas de negócio
+6. Criação de perfil da música popular
+
+## 🚀 Como Executar
+
+1. Clone o repositório
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
