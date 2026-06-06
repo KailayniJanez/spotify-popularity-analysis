@@ -1,15 +1,27 @@
 # 🎵 Análise de Popularidade no Spotify
 
-**Autora:** Kailayni Rodrigues Janez  
-**LinkedIn:** [linkedin.com/in/kailayni-janez-4592158a](https://linkedin.com/in/kailayni-janez-4592158a)
+**Autores:**  
+- Kailayni Rodrigues Janez  
+- Lorenna Zaqui Oliveira  
+- Julia Tavares dos Santos  
+
+**LinkedIn de Kailayni:** [linkedin.com/in/kailayni-janez-4592158a](https://linkedin.com/in/kailayni-janez-4592158a)
 
 ## 📌 Sobre o Projeto
 
-Este projeto analisa o dataset **Spotify Tracks Genre Dataset** para responder à pergunta:
+Este projeto foi desenvolvido em equipe como parte do processo seletivo para o **Grupo de Extensão Panda - UFSCar**.
+
+Analisamos o dataset **Spotify Tracks Genre Dataset** para responder à pergunta:
 
 > **"O que torna uma música popular no Spotify?"**
 
 Foram investigadas correlações entre popularidade e atributos como danceability, energy, loudness, instrumentalness, duração, e muito mais.
+
+## 👥 Contribuições
+
+- **Kailayni Rodrigues Janez** – Análise de dados, limpeza, visualizações e documentação
+- **Lorenna Zaqui Oliveira** – Análise exploratória e tratamento de outliers
+- **Julia Tavares dos Santos** – Estatísticas descritivas e validação dos resultados
 
 ## 🔍 Principais Descobertas
 
