@@ -5,8 +5,6 @@
 - Lorenna Zaqui Oliveira  
 - Julia Tavares dos Santos  
 
-**LinkedIn de Kailayni:** [linkedin.com/in/kailayni-janez-4592158a](https://linkedin.com/in/kailayni-janez-4592158a)
-
 ## 📌 Sobre o Projeto
 
 Este projeto foi desenvolvido em equipe como parte do processo seletivo para o **Grupo de Extensão Panda - UFSCar**.
